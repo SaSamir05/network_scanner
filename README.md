@@ -16,7 +16,8 @@ A professional Python-based network scanner that discovers active devices on a l
 - Threading
 
 ## Screenshot
-(Add screenshots here)
+![Uploading image.png…]()
+
 
 ## Installation
 
