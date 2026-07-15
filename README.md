@@ -21,6 +21,11 @@ A professional Python-based network scanner that discovers active devices on a l
 
 
 ## Installation
-
+Install Npcap (recommended, keeps ARP scanning fast & accurate)
+Download: https://npcap.com/#download
+Run the installer as Administrator.
+On the options screen, tick “Install Npcap in WinPcap API‑compatible Mode”.
+Reboot (or at least restart your terminal).
+Launch your terminal as Administrator, then:
 pip install -r requirements.txt
 python main.py
