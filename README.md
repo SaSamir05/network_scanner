@@ -35,9 +35,6 @@ A professional Python-based network scanner designed to discover and analyze act
 * Threading
 * Socket Programming
 
-## Screenshot
-<img width="1174" height="744" alt="image" src="https://github.com/user-attachments/assets/8a779481-5965-4757-a15c-fb95f6a6386e" />
-
 
 ## Installation
 
