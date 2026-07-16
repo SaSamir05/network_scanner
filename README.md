@@ -1,34 +1,83 @@
 # Network Scanner
 
-A professional Python-based network scanner that discovers active devices on a local network.
+A professional Python-based network scanner designed to discover and analyze active devices on a local network. The application provides real-time network visibility through a modern graphical interface built with CustomTkinter.
 
 ## Features
-- Network Discovery
-- IP & MAC Detection
-- Hostname Resolution
-- CSV/JSON Export
-- Modern CustomTkinter GUI
 
-## Technologies
-- Python
-- Scapy
-- CustomTkinter
-- Threading
+### Network Discovery
 
-## Screenshot
-<img width="1163" height="722" alt="Screenshot 2026-07-15 201040" src="https://github.com/user-attachments/assets/8c4ba06b-72b3-4a6d-8288-3cd0fa07d741" />
+* Detect active devices on the local network
+* Fast and efficient host scanning
 
+### Device Information
 
+* IP Address Detection
+* MAC Address Detection
+* Hostname Resolution
+* Vendor Identification (if available)
+
+### Data Export
+
+* Export scan results to CSV format
+* Export scan results to JSON format
+
+### Modern User Interface
+
+* Clean and responsive CustomTkinter GUI
+* Real-time scan progress updates
+* User-friendly device management
+
+## Technologies Used
+
+* Python
+* Scapy
+* CustomTkinter
+* Threading
+* Socket Programming
 
 ## Installation
- Install Npcap (recommended, keeps ARP scanning fast & accurate)
- Download: https://npcap.com/#download
 
- Run the installer as Administrator.
+### 1. Install Npcap (Windows)
 
- On the options screen, tick “Install Npcap in WinPcap API‑compatible Mode”.
- Reboot (or at least restart your terminal).
- Launch your terminal as Administrator, then:
+Npcap is recommended for fast and reliable ARP-based network discovery.
 
- pip install -r requirements.txt
- python main.py
+Download Npcap:
+
+https://npcap.com/#download
+
+During installation:
+
+* Run the installer as Administrator
+* Enable **"Install Npcap in WinPcap API-Compatible Mode"**
+* Complete the installation and restart your computer (or terminal)
+
+### 2. Clone the Repository
+
+```bash
+git clone https://github.com/SaSamir05/network_scanner.git
+cd network_scanner
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Application
+
+```bash
+python main.py
+```
+
+## Use Cases
+
+* Network Monitoring
+* Device Inventory Management
+* Home Lab Administration
+* Cybersecurity Learning
+* Network Troubleshooting
+
+## License
+
+This project is intended for educational and authorized network administration purposes only.
