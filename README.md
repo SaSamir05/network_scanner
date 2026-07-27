@@ -1,7 +1,6 @@
 # Network Scanner
 
-A professional Python-based network scanner designed to discover and analyze active devices on a local network. The application provides real-time network visibility through a modern graphical interface built with CustomTkinter.
-
+Advanced Python-based network scanner with real-time device discovery, MAC/vendor identification, and CSV/JSON export support, powered by Scapy and CustomTkinter.
 ## Features
 
 ### Network Discovery
